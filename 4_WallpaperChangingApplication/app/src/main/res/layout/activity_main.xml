@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fontFamily="monospace"
+        android:text="Wallpaper Changing Application"
+        android:textAlignment="center"
+        android:textColor="#00BCD4"
+        android:textSize="35sp"
+        android:textStyle="bold"
+        tools:ignore="HardcodedText" />
+
+    <Button
+        android:id="@+id/wp"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="150dp"
+        android:backgroundTint="#00BCD4"
+        android:fontFamily="sans-serif-smallcaps"
+        android:foregroundTint="#D51B1B"
+        android:onClick="changeWallpaper"
+        android:text="Change Wallpaper"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        app:cornerRadius="80dp"
+        tools:ignore="HardcodedText,UsingOnClickInXml" />
+</LinearLayout>

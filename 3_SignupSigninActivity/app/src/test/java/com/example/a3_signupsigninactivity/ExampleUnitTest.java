@@ -1,4 +1,4 @@
-package com.example.lab3;
+package com.example.a3_signupsigninactivity;
 
 import org.junit.Test;
 

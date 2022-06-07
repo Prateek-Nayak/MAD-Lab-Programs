@@ -1,4 +1,5 @@
-package com.example.a3_signinsignupactivity;
+package com.example.a3_signupsigninactivity;
+
 import androidx.appcompat.app.AppCompatActivity;
 import android.content.Intent;
 import android.os.Bundle;

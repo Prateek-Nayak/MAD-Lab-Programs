@@ -267,8 +267,7 @@ public class MainActivity extends AppCompatActivity {
         }
         else
         {
-            Toast.makeText(this, "Please click on Number1/Number2 Field",
-                    Toast.LENGTH_LONG).show();
+            Toast.makeText(this, "Please click on Number1/Number2 Field", Toast.LENGTH_LONG).show();
         }
-    }
+    }   
 }

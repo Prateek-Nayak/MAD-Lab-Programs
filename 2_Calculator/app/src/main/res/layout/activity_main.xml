@@ -222,5 +222,16 @@
             android:textAlignment="center"
             android:onClick="All_Clear"
             />
+
     </LinearLayout>
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:fontFamily="monospace"
+        android:text="Prateek Nayak\n1BI19CS109"
+        android:textAlignment="center"
+        android:textColor="#D80E52"
+        android:textStyle="bold" />
 </LinearLayout>

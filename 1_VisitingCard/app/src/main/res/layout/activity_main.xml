@@ -19,7 +19,7 @@
         android:text="BANGALORE INSTITUTE OF TECHNOLOGY"
         android:textAlignment="center"
         android:textColor="#349C39"
-        android:textSize="25sp"
+        android:textSize="20sp"
         android:translationY="150dp" />
 
 

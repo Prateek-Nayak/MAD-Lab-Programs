@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#8ECCE8"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fontFamily="monospace"
+        android:gravity="center_horizontal"
+        android:text="XML and JSON Parser"
+        android:textAlignment="center"
+        android:textColor="#E91E63"
+        android:textSize="30sp" />
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="200dp"
+        android:fontFamily="monospace"
+        android:text="Prateek Nayak\n1BI19CS109"
+        android:textAlignment="center"
+        android:textColor="#D80E52"
+        android:textStyle="bold" />
+    <Button
+        android:layout_width="200dp"
+        android:layout_gravity="center"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:onClick="XMLParser"
+        android:text="XML PARSER"
+        android:textAlignment="center"
+        app:backgroundTint="#104D7E" />
+
+    <Button
+        android:layout_width="200dp"
+        android:layout_gravity="center"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:onClick="JSONParser"
+        android:text="JSON PARSER"
+        android:textAlignment="center"
+        app:backgroundTint="#154E7C" />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/resxml"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal"
+            android:paddingLeft="10dp"
+            android:paddingRight="40dp"
+            android:textAlignment="center"
+            android:textSize="15sp" />
+
+        <TextView
+            android:id="@+id/resjson"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal"
+            android:paddingLeft="40dp"
+            android:textAlignment="center"
+            android:textSize="15sp" />
+    </LinearLayout>
+
+</LinearLayout>
